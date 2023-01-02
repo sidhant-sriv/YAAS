@@ -3,11 +3,11 @@ import json
 import csv
 import pandas
 
-with open('/home/sidhant/YAAS/pps2/ex15/credentials.txt') as f:
+with open('PATH FOR credentials.txt') as f:
     f = f.readlines()
 x = input("Enter username\n")+'\n' == f[0]
 y = input("Enter password\n") == f[1]
-meta = json.load(open('pps2/ex15/meta.json'))
+meta = json.load(open('PATH FOR meta.json'))
 
 
 if x and y:
