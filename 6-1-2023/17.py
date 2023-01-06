@@ -1,0 +1,5 @@
+decimal_num = int(input("Enter a decimal number: "))
+hex_num = hex(decimal_num)
+oct_num = oct(decimal_num)
+print("Hexadecimal equivalent:", hex_num)
+print("Octal equivalent:", oct_num)

@@ -1,0 +1,1 @@
+print("Cube of the number=", eval(input())**3)
