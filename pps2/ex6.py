@@ -5,10 +5,10 @@ def check_string(s):
         return False
 
     first_half = s[:len(s)//2]
-    if not re.match(r'^[a-zA-Z]+$', first_half):
+    if not re.match(r'^[A-Z]+$', first_half):
         return False
 
-    if not re.match(r'^[a-zA-Z]$', s[-1]):
+    if not re.match(r'^[A-Z]$', s[-1]):
         return False
 
     rest_of_string = s[len(s)//2:-1]
